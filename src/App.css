@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  height:100%;
+  width:100%;
+}
+#box{
+  height:100px;
+  width:100px;
+  background-color: grey;
+}
+#box-clicked {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+
+}
+#top-div{
+  display:flex;
+
+  gap: 12px;
+}
+#parent-div{
+  display:flex;
+  flex-direction: column;
+  gap:12px;
+}
+
+
